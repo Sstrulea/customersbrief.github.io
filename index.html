@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Strulea Sebastian" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Front-end customers page" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <title>pentest-tools customers front-end webpage</title>
+  </head>
+  <body>
+    <main class="main">
+      <header>
+        <img src="assets/logo.png" alt="" class="header-img" />
+        <nav class="navMenu">
+          <a href="#">Tools</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Services</a>
+          <a href="#">Resources</a>
+          <a href="#">Company</a>
+          <div class="dot"></div>
+        </nav>
+        <button class="button-3" role="button">SIGN IN</button>
+        <button class="button-4" role="button">SIGN UP</button>
+      </header>
+      <div class="wrapper">
+        <div class="png">
+          <img src="assets/battery.png" alt="" class="battery-png" />
+          <img src="assets/security.png" alt="" class="security-png" />
+          <img src="assets/laptop.png" alt="" class="laptop-png" />
+          <img src="assets/background.png" alt="" class="background-png" />
+          <img src="assets/background.png" alt="" class="background-png2" />
+          <img src="assets/background.png" alt="" class="background-png3" />
+          <img src="assets/background.png" alt="" class="background-png4" />
+          <div class="container-main">
+            <div class="info">
+              <h1>Customers that use Pentest-Tools.com</h1>
+              <p>
+                Today’s leading companies and institutions trust and use
+                Pentest-Tools.com to perform penetration tests and quickly
+                detect vulnerabilities in their websites and network
+                infrastructures. Read our
+                <a
+                  href="https://pentest-tools.com/reviews"
+                  style="color: orange"
+                  >customer testimonials.</a
+                >
+              </p>
+              <p>
+                Don’t take our word for it. Here’s what our customers say about
+                their experience of using the platform.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section class="section1">
+          <div class="container1">
+            <h2>Browse through all our customers</h2>
+            <div class="filter-by">
+              <p style="color: white">FILTER BY:</p>
+              <button class="filters">Filters</button>
+              <div class="filter-inputs" style="display: none">
+                <div class="industry">
+                  <p>Industry</p>
+                  <div class="box">
+                    <select id="industry-box">
+                      <option>All industries</option>
+                      <option>Banking & Finance</option>
+                      <option>Education</option>
+                      <option>Healthcare</option>
+                      <option>Gov & Public Sector</option>
+                      <option>Audit & Advisory</option>
+                      <option>Technology & Telecom</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="country">
+                  <p>Country</p>
+                  <div class="box">
+                    <select id="country-box">
+                      <option>All countries</option>
+                      <option>United States of America</option>
+                      <option>United Kingdom</option>
+                      <option>Germany</option>
+                      <option>China</option>
+                      <option>France</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-by">
+              <p>ORDER BY:</p>
+              <div class="box">
+                <select id="order-box">
+                  <option>Relevance</option>
+                  <option>Alphabetical</option>
+                </select>
+              </div>
+              <button class="sort">Sort</button>
+            </div>
+            <ul class="customers">
+              <li
+                data-name="Allianz"
+                data-country="Germany"
+                data-industry="Banking & Finance"
+                data-relevance="7"
+                class="allianz"
+              >
+                <img src="assets/customers/allianz.jpg" alt="" />
+              </li>
+              <li
+                data-name="Deloitte"
+                data-country="United Kingdom"
+                data-industry="Audit & Advisory"
+                data-relevance="7"
+                class="deloitte"
+              >
+                <img src="assets/customers/deloitte.jpg" alt="" />
+              </li>
+              <li
+                data-name="Cathay United Bank"
+                data-country="China"
+                data-industry="Banking & Finance"
+                data-relevance="1"
+                class="cathay"
+              >
+                <img src="assets/customers/cathay.jpg" alt="" />
+              </li>
+
+              <li
+                data-name="Intel"
+                data-country="United States of America"
+                data-industry="Technology & Telecom"
+                data-relevance="10"
+                class="intel"
+              >
+                <img src="assets/customers/intel.jpg" alt="" />
+              </li>
+
+              <li
+                data-name="Yale University"
+                data-country="United States of America"
+                data-industry="Education"
+                data-relevance="10"
+                class="yale"
+              >
+                <img src="assets/customers/yale.jpg" alt="" />
+              </li>
+              <li
+                data-name="Orange"
+                data-country="France"
+                data-industry="Technology & Telecom"
+                data-relevance="9"
+                class="orange"
+              >
+                <img src="assets/customers/orange.jpg" alt="" />
+              </li>
+
+              <li
+                data-name="Johnson & Johnson"
+                data-country="United Kingdom"
+                data-industry="Healthcare"
+                data-relevance="8"
+                class="johnson"
+              >
+                <img src="assets/customers/johnson.jpg" alt="" />
+              </li>
+              <li
+                data-name="Vodafone"
+                data-country="United Kingdom"
+                data-industry="Technology & Telecom"
+                data-relevance="9"
+                class="vodafone"
+              >
+                <img src="assets/customers/vodafone.jpg" alt="" />
+              </li>
+
+              <li
+                data-name="Accenture"
+                data-country="United Kingdom"
+                data-industry="Audit & Advisory"
+                data-relevance="7"
+                class="accenture"
+              >
+                <img src="assets/customers/accenture.jpg" alt="" />
+              </li>
+
+              <li
+                data-name="U.S. Department of Commerce"
+                data-country="United States of America"
+                data-industry="Gov & Public Sector"
+                data-relevance="10"
+                class="commerce"
+              >
+                <img src="assets/customers/commerce.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section2">
+          <div class="container2">
+            <h4>REVIEWS & TESTIMONIALS</h4>
+            <h2>
+              <a href="https://pentest-tools.com/reviews" style="color: orange"
+                >What our customers say</a
+              >
+              about Pentest-Tools.com
+            </h2>
+            <div class="review-box">
+              <h1>Ioan Constantin</h1>
+              <h3>Cyber Security Expert, Orange | Industry: telecom</h3>
+              <h3>
+                <spans style="color: orange">Likes it for:</spans> ease of use,
+                great reporting capabilities
+              </h3>
+              <img src="assets/Ioan Constantin.jpeg" alt="" class="image1" />
+              <p class="firstp">
+                “We teamed up with Pentest-Tools.com nearly 3 years ago and
+                offered their great Web Vulnerability Assessment tools in our
+                <a href="https://threatmap.ro/" style="color: orange"
+                  >threatmap.ro</a
+                >
+                platform, offering free, one-click quick scans for our user
+                base.
+              </p>
+              <p class="secondp">
+                We absolutely loved the experience, so far :) and appreciate the
+                great collaboration with their team and how easy it is to work
+                with them in demanding projects such as Threatmap. Read the full
+                review >
+              </p>
+              <p class="thirdp">
+                Having access to a well-documented API was key for the
+                successful integration of Threatmap and Pentest-Tools.com and
+                the girls and guys over there delivered a great API, were prompt
+                in answering our feedback and supporting our needs for some
+                over-the-top custom integration requirements.
+              </p>
+              <p class="forthp">
+                We're pushing forward with new iterations of Threatmap, new
+                use-cases and as we expand our user-base, Pentest-Tools.com
+                remains one of the core tools we're using to push forward
+                innovation, awareness and technology.”
+              </p>
+              <img src="assets/photo2.png" alt="" class="image2" />
+              <button class="button-5">
+                <a href="https://pentest-tools.com/reviews" style="color: white"
+                  >Read all the reviews from our customers »</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="discover">
+            <h2>Discover our pentesting tools</h2>
+            <p>See which aspects of your work you can automate and simplify</p>
+            <a href="https://pentest-tools.com/alltools" style="color: orange"
+              >See all the tools »
+            </a>
+          </div>
+        </section>
+        <section class="section3">
+          <div class="all-links">
+            <ul class="tools">
+              <p style="color: orange">TOOLS</p>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#reconnaissance-tools"
+                  style="color: white"
+                  >Reconnaissance Tools</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Web Vulnerability Scanners</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Web CMS Scanners</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Network Vulnerability Scanners</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Offensive Tools</a
+                >
+              </li>
+            </ul>
+            <ul class="resources">
+              <p style="color: orange">RESOURCES</p>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#reconnaissance-tools"
+                  style="color: white"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Platform Tutorials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Platform Updates</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >API Reference</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Data Security</a
+                >
+              </li>
+            </ul>
+            <ul class="company">
+              <p style="color: orange">COMPANY</p>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#reconnaissance-tools"
+                  style="color: white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Team</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Customers</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Reviews</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Jobs</a
+                >
+              </li>
+            </ul>
+            <ul class="help">
+              <p style="color: orange">HELP</p>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#reconnaissance-tools"
+                  style="color: white"
+                  >Terms and Conditions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Frequently Asked Questions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Support Center</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://pentest-tools.com/alltools#web-vulnerability-scanners"
+                  style="color: white"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe">
+            <h2 style="color: orange">SUBSCRIBE TO OUR NEWSLETTER</h2>
+            <h3 style="color: white">
+              Get free pentesting guides and demos, plus core updates to the
+              platform that improve your pentesting expertise.
+            </h3>
+            <input
+              type="text"
+              class="ip-block"
+              placeholder="Enter your email address"
+            />
+            <button class="button-5" role="button">Subscribe</button>
+          </div>
+          <p style="border-top: 2px solid white"></p>
+          <div class="social-platforms">
+            <a class="btn btn-icon btn-facebook" href="#"
+              ><i class="fa fa-facebook"></i><span>Facebook</span></a
+            >
+            <a class="btn btn-icon btn-youtube" href="#"
+              ><i class="fa fa-youtube"></i><span>Youtube</span></a
+            >
+            <a class="btn btn-icon btn-linkedin" href="#"
+              ><i class="fa fa-linkedin"></i><span>LinkedIn</span></a
+            >
+          </div>
+          <p style="border-bottom: 2px solid white"></p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
